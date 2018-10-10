@@ -56,7 +56,7 @@ Grafo <- CorpusV2 %>%
 
 Grafo %>%
   filter(n > 20, #choose the frequency filter
-         !str_detect(word1, "\\d")
+         !str_detect(word1, "\\d"),
          !str_detect(word2, "\\d")) %>%
   visualize_bigrams()
 
