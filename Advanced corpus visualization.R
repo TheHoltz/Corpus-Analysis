@@ -1,7 +1,10 @@
 library(dplyr)
 library(tidyr)
+library(tidytext)
 library(igraph)
 library(ggraph)
+library(stringr)
+library(ggplot2)
 library(stringr)
 source("https://pastebin.com/raw/3ZKsa7gZ") #multiplot function
 #library(jsonlite)
