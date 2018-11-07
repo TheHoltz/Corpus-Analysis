@@ -59,7 +59,6 @@ degree_ <- function(Novos) {
     cat('Progresso',i/n,"\n")}
   
   cat("Parte [2/2] Iniciando cálculos..\n")
-  Sys.sleep(0.5)
   vec2 <- character(length = n)
   
   foreach(i=1:n, .combine='c') %do% {
