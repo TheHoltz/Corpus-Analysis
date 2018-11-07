@@ -38,11 +38,11 @@ BigramasCorpusComentarios <- VCorpus(VectorSource(json_data2$body)) %>%
 dim(BigramasCorpusPosts) #30668 
 dim(BigramasCorpusComentarios) #93673
 
-Posts <- BigramasCorpusPosts %>% filter(n > 5)
-Comentarios <- BigramasCorpusComentarios %>% filter(n > 20)
+#Posts <- BigramasCorpusPosts %>% filter(n > 5)
+#Comentarios <- BigramasCorpusComentarios %>% filter(n > 20)
 
-dim(Posts) #71
-dim(Comentarios) #299
+#dim(Posts) #71
+#dim(Comentarios) #299
 
 #_,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
